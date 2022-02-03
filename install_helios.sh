@@ -50,7 +50,7 @@ gfortran -g -fbacktrace -fbounds-check -Wall -Wextra -Wconversion -pedantic -fch
 
 #Compile in debug mode...
 echo "Making Helios... ... ..."
-gfortran -g -fbacktrace -fbounds-check -Wall -Wextra -Wconversion -pedantic -fcheck=all helios.f90 \
+gfortran -g -fbacktrace -fbounds-check -Wall -Wextra -Wconversion -pedantic -fcheck=all khelios.f90 \
 ../lib/Kerr.o \
 ../lib/Kopen.o \
 ../lib/Kpitchang.o \
