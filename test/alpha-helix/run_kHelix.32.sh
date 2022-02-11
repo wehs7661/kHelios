@@ -14,4 +14,4 @@ grid_theta_end 20
 helix_atom_names CA
 print_to_plot 1
 EOF
-/Users/k/Desktop/Manuscripts/kHelix/Code/kHelix.o input
+$KHELIXHOME/bin/helios.o input
